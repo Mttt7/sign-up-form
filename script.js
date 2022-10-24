@@ -42,7 +42,9 @@ result.style.display="none"
     confirmPasswordForm.addEventListener('blur',passwordMatchCheck)
 
     button.addEventListener('click',()=>{
+        
         showData()
+       
     })
 
 
@@ -81,4 +83,12 @@ result.style.display="none"
 
 
 
+    }
+
+    function checkIfValid(){
+       
+    }
+
+    function invalidData(){
+        console.log("invalid")
     }
